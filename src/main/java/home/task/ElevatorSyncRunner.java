@@ -58,6 +58,8 @@ public class ElevatorSyncRunner {
 
         // Ok, all guys are inside, let's go
         elevator.run();
+        
+        
 
     }
 
