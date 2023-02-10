@@ -31,8 +31,8 @@ class ElevatorSyncTest {
         expectedFloorSequence.add(7);
         expectedFloorSequence.add(8);
 
-        digitPanel.selectFloor(6);
         digitPanel.selectFloor(7);
+        digitPanel.selectFloor(6);
         digitPanel.selectFloor(8);
 
         elevatorSync.calcFloorSequence();
